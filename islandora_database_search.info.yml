@@ -2,9 +2,12 @@ name: 'Islandora Database Search'
 type: module
 description: 'Search configurations for collections and facets'
 core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - search_api
   - block
   - views
   - facets
+  - context
+  - islandora_defaults
 package: 'islandora'
