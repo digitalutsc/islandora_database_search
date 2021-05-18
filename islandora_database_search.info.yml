@@ -1,0 +1,10 @@
+name: 'Islandora Database Search'
+type: module
+description: 'Search configurations for collections and facets'
+core: 8.x
+dependencies:
+  - search_api
+  - block
+  - views
+  - facets
+package: 'islandora'

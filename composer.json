@@ -1,0 +1,13 @@
+{
+    "name": "islandora_database_search",
+    "type": "drupal-module",
+    "description": "Search configurations for collections and facets",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/islandora_database_search",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/islandora_database_search",
+        "source": "http://cgit.drupalcode.org/islandora_database_search",
+    },
+}

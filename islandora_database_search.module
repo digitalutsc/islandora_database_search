@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains islandora_database_search.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function islandora_database_search_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the islandora_database_search module.
+    case 'help.page.islandora_database_search':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Search configurations for collections and facets') . '</p>';
+      return $output;
+
+    default:
+  }
+}
